@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d61uoeuhnx8s"]
+
+[ext_resource type="Texture2D" uid="uid://dljwms6ifpvme" path="res://assets/environment/background/tile_0001.png" id="1_yi6m4"]
+
+[node name="Level1" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+offset_right = 1151.0
+offset_bottom = 645.0
+texture = ExtResource("1_yi6m4")
+stretch_mode = 1
